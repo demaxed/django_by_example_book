@@ -15,6 +15,6 @@
 
 ### Ch. 2
 - Sharing posts via email
-- Adding comments to a post
+- Creating a comment system
 - Tagging posts
 - Recommending similar posts

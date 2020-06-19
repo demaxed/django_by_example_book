@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'taggit',
+
     'apps.blog.apps.BlogConfig',
 ]
 
@@ -124,3 +126,11 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (os.path.join('static'),)
+
+# EMAIL_HOST = 'smtp-relay.sendinblue.com'
+# EMAIL_HOST_USER = 'user'
+# EMAIL_HOST_PASSWORD = 'pass'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
